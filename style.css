@@ -1,7 +1,39 @@
 body {
     
 }
-
+#body {
+    background-color: beige;
+    font-family: "Bookman Old Style", Serif;
+}
 #frame {
-    height: 50px;
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+.topnav li {
+    display: inline;
+    float: left;
+}
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:mediumseagreen;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.topnav li a {
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav li a:hover {
+    background-color: beige;
+    color: mediumaquamarine;
 }
